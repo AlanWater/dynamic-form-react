@@ -231,7 +231,7 @@ export default function FormEditor({
     } else {
       const uniq = new Date().getTime();
       localStorage.setItem(`${uniq}`, JSON.stringify(schema));
-      window.open(`/preview?schemaId=${uniq}`);
+      window.open(`/dynamic-form-react/preview?schemaId=${uniq}`);
     }
   };
 

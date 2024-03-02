@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import SchemaUtils from '../../src/schema/schema-utils';
+import SchemaUtils from '../../../src/schema/schema-utils';
 import queryString from 'querystring';
-import FormPreview from '../../src/form-render/form-preview';
+import FormPreview from '../../../src/form-render/form-preview';
 import { Button } from 'antd';
-import FormRender from '../../src/form-render';
+import FormRender from '../../../src/form-render';
 
 export default function Preview() {
   const [schema, setSchema] = useState(SchemaUtils.getInitialSchema());

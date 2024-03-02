@@ -1,5 +1,5 @@
 import React from 'react';
-import FormEditor from '../../src/form-editor';
+import FormEditor from '../../../src/form-editor';
 
 export default function BasicEditor() {
   return (
