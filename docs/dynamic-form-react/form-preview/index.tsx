@@ -46,7 +46,7 @@ export default function Preview() {
       >
         校验
       </Button>
-      <FormPreview form={form} schemaList={[schema, schema]} />
+      <FormPreview form={form} schemaList={[schema]} />
     </div>
   );
 }
