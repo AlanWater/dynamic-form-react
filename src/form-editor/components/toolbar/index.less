@@ -1,0 +1,32 @@
+.toolbar {
+  height: 48px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 20px;
+  width: 100%;
+}
+
+.left {
+  text-align: left;
+  > * {
+    margin-right: 8px;
+  }
+  button {
+    &:hover {
+      background-color: #eee;
+    }
+  }
+}
+.right {
+  text-align: right;
+  button {
+    margin-left: 8px;
+  }
+}
+.disabled {
+  color: #999 !important;
+}

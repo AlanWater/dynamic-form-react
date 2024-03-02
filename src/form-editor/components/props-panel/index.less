@@ -1,0 +1,70 @@
+@import '../../../styles/theme.less';
+
+.panel {
+  .border-box();
+  background-color: #fff;
+  border-top: 0;
+  width: 330px;
+  // margin-left: 16px;
+  overflow: auto;
+  :global {
+    .form-input-label {
+      textarea {
+        resize: none !important;
+      }
+    }
+    .ant-tabs-content {
+      padding: 0 20px 0 24px;
+    }
+    .ant-divider-inner-text {
+      font-size: 14px;
+    }
+    .ant-form {
+      height: 100%;
+    }
+    .ant-tabs {
+      height: 100%;
+    }
+    .ant-tabs-content-holder {
+      height: calc(100% - 100px);
+      overflow: auto;
+    }
+    .ant-collapse {
+      border: 0;
+    }
+    .ant-collapse-header {
+      background-color: #fff;
+    }
+    .ant-collapse-item-active {
+      .ant-collapse-header {
+        color: @primary;
+        .anticon {
+          color: @primary;
+        }
+      }
+    }
+    .ant-collapse > .ant-collapse-item:last-child {
+      &::not(:first) {
+        border-top: 1px solid #d9d9d9;
+      }
+      border-bottom: 0;
+    }
+    .ant-collapse-content {
+      background-color: #fff;
+      border: 0;
+    }
+    .ant-collapse .ant-collapse-item-disabled > .ant-collapse-header,
+    .ant-collapse .ant-collapse-item-disabled > .ant-collapse-header > .arrow {
+      cursor: default;
+      color: rgba(0, 0, 0, 0.85);
+    }
+    .ant-collapse
+      > .ant-collapse-item.ant-collapse-no-arrow
+      > .ant-collapse-header {
+      padding-left: 40px;
+    }
+  }
+}
+
+.component {
+}

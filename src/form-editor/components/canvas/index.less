@@ -1,0 +1,31 @@
+@import '../../../styles/theme.less';
+
+.canvas-box {
+  width: calc(100% - 40px);
+  flex-grow: 1;
+  height: calc(100% - 72px);
+  background-color: #fff;
+  margin: 0 20px;
+  padding: 8px;
+}
+.canvas {
+  // .border-box();
+  width: 100%;
+  flex-grow: 1;
+  height: 100%;
+  background-color: #fff;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.active {
+  background: rgba(230, 242, 255, 0.2);
+  border: 1px dashed #1a7ee9;
+  position: relative;
+}
+
+.blank {
+  background-image: url('/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,43 @@
+.preview {
+  background-color: #f4f6f9;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  min-height: 56px;
+  background-color: #fff;
+  line-height: 56px;
+  padding-left: 16px;
+  margin-bottom: 24px;
+}
+.content {
+  overflow-y: auto;
+  overflow-x: auto;
+  margin: 24px auto;
+  position: relative;
+  background-color: #fff;
+  width: auto;
+  max-width: calc(100vw - 40px);
+  padding: 0 16px;
+  :global {
+    .ant-divider {
+      border-top-width: 1px;
+    }
+  }
+}
+.title {
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 56px;
+}
+.anchor {
+  position: fixed;
+  top: 10%;
+  right: 20px;
+  background-color: #fff;
+  width: 152px;
+  height: auto;
+  padding: 8px;
+}

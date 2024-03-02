@@ -1,0 +1,28 @@
+.preview-modal {
+  top: 24px;
+  max-height: calc(100vh - 48px);
+  padding: 0;
+  :global {
+    .ant-modal-content {
+      padding: 24px;
+      max-height: calc(100vh - 48px);
+      // padding-bottom: 0;
+    }
+    .ant-modal-body {
+      padding: 0;
+      margin-top: 24px;
+      max-height: calc(100vh - 190px);
+      overflow-y: auto;
+    }
+    .ant-modal-header {
+      padding: 0;
+      padding-bottom: 16px;
+      height: 40px;
+    }
+    .ant-modal-close {
+      margin-right: 16px;
+      top: 8px;
+      right: 4px;
+    }
+  }
+}
