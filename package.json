@@ -1,5 +1,5 @@
 {
-  "name": "dynamic-page",
+  "name": "dynamic-form-react",
   "version": "1.14.5",
   "scripts": {
     "start": "dumi dev",
